@@ -201,6 +201,7 @@
           <div class="col-md-7">
             <div class="about-content-wrapper">
               <h4 class="title">نبذة عن الفريق</h4>
+              <hr />
               <p class="text-content">
                 نحن فريق من شخصين، نمتلك خبرة وتجربة بالمجال الرقمي. نقوم على
                 إنجاح ومواكبة المشاريع الناشئة والكبرى لتتمكن من الحصول على
@@ -279,6 +280,9 @@
   margin: 0 0 50px;
   background: #eee;
   padding: 50px 25px;
+  .main-title {
+    margin-bottom: 15px;
+  }
   .about-content-wrapper {
     .title {
       color: var(--primary);
@@ -289,6 +293,7 @@
       line-height: 1.7;
       color: #222;
       font-weight: 600;
+      margin-top: 20px;
     }
   }
 }
