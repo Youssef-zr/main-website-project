@@ -216,6 +216,192 @@
           </div>
         </div>
       </section>
+
+      <!-- start portfolio projects -->
+      <section class="section section-portfolio">
+        <div class="main-title">
+          <h2><i class="fa fa-chevron-left"></i> من بين أعمالنا</h2>
+        </div>
+
+        <!-- btns shuffle projects -->
+        <div class="row">
+          <div class="col-12">
+            <ul class="shuffle-links list-unstyled p-0">
+              <li class="shuffle-item">
+                <button class="btn btn-primary">
+                  <i class="fa fa-random"></i> تصميم
+                </button>
+              </li>
+              <li class="shuffle-item">
+                <button class="btn btn-primary">
+                  <i class="fa fa-random"></i> تصميم
+                </button>
+              </li>
+              <li class="shuffle-item">
+                <button class="btn btn-primary">
+                  <i class="fa fa-random"></i> تصميم
+                </button>
+              </li>
+              <li class="shuffle-item">
+                <button class="btn btn-primary">
+                  <i class="fa fa-random"></i> تصميم
+                </button>
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+
+        <!-- projects list -->
+        <div class="shuffle-projects">
+          <div class="row">
+            <!-- prject-info -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="prject-info">
+                <div class="image">
+                  <img
+                    src="https://placehold.jp/300x300.png"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="description">
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    id necessitatibus corporis quos repudiandae reiciendis?
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- prject-info -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="prject-info">
+                <div class="image">
+                  <img
+                    src="https://placehold.jp/300x300.png"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="description">
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    id necessitatibus corporis quos repudiandae reiciendis?
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- prject-info -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="prject-info">
+                <div class="image">
+                  <img
+                    src="https://placehold.jp/300x300.png"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="description">
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    id necessitatibus corporis quos repudiandae reiciendis?
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- prject-info -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="prject-info">
+                <div class="image">
+                  <img
+                    src="https://placehold.jp/300x300.png"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="description">
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    id necessitatibus corporis quos repudiandae reiciendis?
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- prject-info -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="prject-info">
+                <div class="image">
+                  <img
+                    src="https://placehold.jp/300x300.png"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="description">
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    id necessitatibus corporis quos repudiandae reiciendis?
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- prject-info -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="prject-info">
+                <div class="image">
+                  <img
+                    src="https://placehold.jp/300x300.png"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="description">
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    id necessitatibus corporis quos repudiandae reiciendis?
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- prject-info -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="prject-info">
+                <div class="image">
+                  <img
+                    src="https://placehold.jp/300x300.png"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="description">
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    id necessitatibus corporis quos repudiandae reiciendis?
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- prject-info -->
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="prject-info">
+                <div class="image">
+                  <img
+                    src="https://placehold.jp/300x300.png"
+                    class="w-100"
+                    alt=""
+                  />
+                </div>
+                <div class="description">
+                  <a href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                    id necessitatibus corporis quos repudiandae reiciendis?
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -294,6 +480,48 @@
       color: #222;
       font-weight: 600;
       margin-top: 20px;
+    }
+  }
+}
+
+// start section portfolio
+.section-portfolio {
+  .shuffle-links {
+    display: flex;
+    .shuffle-item {
+      margin-left: 18px;
+      .btn {
+        background: var(--primary);
+        i.fa {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .prject-info {
+    position: relative;
+    transition: background 1s ease-in-out;
+    margin-bottom: 20px;
+
+    &:hover .description {
+      display: block;
+    }
+    .description {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      padding: 10px 10px 10px 0;
+      background: var(--primary);
+      transition: background 1s ease-in-out;
+      cursor: pointer;
+      a {
+        font-size: 14px;
+        color: #fff;
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
   }
 }
