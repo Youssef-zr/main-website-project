@@ -1,32 +1,43 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <!-- navigation bar -->
+    <navBar />
+
+    <!-- content -->
+    <router-view />
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import "./assets/css/bootswatch.min.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500;600&display=swap");
+
+:root {
+  --primary: #0c8ce9;
 }
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+body {
+  background: #fff;
+  direction: rtl;
+  text-align: right;
+  #app {
+    font-family: "Cairo", sans-serif;
+  }
+  .img-responsive {
+    max-width: 100%;
+  }
+  .blue-text {
+    color: var(--primary);
   }
 }
 </style>
+
+<script>
+import navBar from "@/components/NavigationBar.vue";
+
+export default {
+  components: {
+    navBar,
+  },
+};
+</script>
