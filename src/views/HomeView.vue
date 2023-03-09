@@ -255,9 +255,9 @@
         <!-- projects list -->
         <div class="shuffle-projects">
           <div class="row">
-            <!-- prject-info -->
+            <!-- project-info -->
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="prject-info">
+              <div class="project-info">
                 <div class="image">
                   <img
                     src="https://placehold.jp/300x300.png"
@@ -273,9 +273,9 @@
                 </div>
               </div>
             </div>
-            <!-- prject-info -->
+            <!-- project-info -->
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="prject-info">
+              <div class="project-info">
                 <div class="image">
                   <img
                     src="https://placehold.jp/300x300.png"
@@ -291,9 +291,9 @@
                 </div>
               </div>
             </div>
-            <!-- prject-info -->
+            <!-- project-info -->
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="prject-info">
+              <div class="project-info">
                 <div class="image">
                   <img
                     src="https://placehold.jp/300x300.png"
@@ -309,9 +309,9 @@
                 </div>
               </div>
             </div>
-            <!-- prject-info -->
+            <!-- project-info -->
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="prject-info">
+              <div class="project-info">
                 <div class="image">
                   <img
                     src="https://placehold.jp/300x300.png"
@@ -327,9 +327,9 @@
                 </div>
               </div>
             </div>
-            <!-- prject-info -->
+            <!-- project-info -->
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="prject-info">
+              <div class="project-info">
                 <div class="image">
                   <img
                     src="https://placehold.jp/300x300.png"
@@ -345,9 +345,9 @@
                 </div>
               </div>
             </div>
-            <!-- prject-info -->
+            <!-- project-info -->
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="prject-info">
+              <div class="project-info">
                 <div class="image">
                   <img
                     src="https://placehold.jp/300x300.png"
@@ -363,9 +363,9 @@
                 </div>
               </div>
             </div>
-            <!-- prject-info -->
+            <!-- project-info -->
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="prject-info">
+              <div class="project-info">
                 <div class="image">
                   <img
                     src="https://placehold.jp/300x300.png"
@@ -381,9 +381,9 @@
                 </div>
               </div>
             </div>
-            <!-- prject-info -->
+            <!-- project-info -->
             <div class="col-sm-6 col-md-4 col-lg-3">
-              <div class="prject-info">
+              <div class="project-info">
                 <div class="image">
                   <img
                     src="https://placehold.jp/300x300.png"
@@ -582,21 +582,24 @@
     }
   }
 
-  .prject-info {
+  .project-info {
     position: relative;
-    transition: background 1s ease-in-out;
     margin-bottom: 20px;
+    overflow: hidden;
 
-    &:hover .description {
-      display: block;
+    &:hover {
+      .description {
+        height: auto;
+        bottom: 0;
+      }
     }
     .description {
-      display: none;
       position: absolute;
-      bottom: 0;
+      bottom: -50px;
+      height: 0;
       padding: 10px 10px 10px 0;
       background: var(--primary);
-      transition: background 1s ease-in-out;
+      transition: all .3s linear;
       cursor: pointer;
       a {
         font-size: 14px;
@@ -622,6 +625,18 @@ export default {
   created() {
     $(() => {
       $(".carousel-reviews").carousel(2500);
+
+      // $("body").on("mouseenter", ".project-info", function () {
+      //   $(this).find(".description").animate({
+      //     height: "100px",
+      //   });
+
+      //   $("body").on("mouseleave", ".project-info", function () {
+      //     $(this).find(".description").animate({
+      //       height: "0",
+      //     });
+      //   });
+      // });
     });
   },
   methods: {},
