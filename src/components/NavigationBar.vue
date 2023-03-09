@@ -13,15 +13,8 @@
 
             <li class="nav-item">
               <router-link class="nav-link" to="/services">
-                <i class="fa fa-cogs"></i>
+                <i class="fa fa-server"></i>
                 خدماتنا
-              </router-link>
-            </li>
-
-            <li class="nav-item">
-              <router-link class="nav-link" to="/about-us">
-                <i class="fa fa-question-circle"></i>
-                من نحن
               </router-link>
             </li>
 
@@ -29,6 +22,13 @@
               <router-link class="nav-link" to="/contact-us">
                 <i class="fa fa-envelope"></i>
                 اتصل بنا
+              </router-link>
+            </li>
+
+            <li class="nav-item">
+              <router-link class="nav-link" to="/about-us">
+                <i class="fa fa-question-circle"></i>
+                من نحن
               </router-link>
             </li>
           </ul>
@@ -77,6 +77,7 @@
         .nav-link {
           padding: 0;
           color: var(--primary);
+          font-weight: bold;
           position: relative;
 
           &.router-link-exact-active::after {

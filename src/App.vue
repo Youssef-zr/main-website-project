@@ -29,6 +29,9 @@ body {
   .blue-text {
     color: var(--primary);
   }
+  .img-circle {
+    border-radius: 50%;
+  }
 }
 </style>
 

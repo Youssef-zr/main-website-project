@@ -4,8 +4,9 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 
-// import bootstrap and jquery
-import "bootstrap";
+// import bootstrap and jquery and popper
+
+import "bootstrap/dist/js/bootstrap.min.js";
 
 global.jQuery = require("jquery");
 var $ = global.jQuery;

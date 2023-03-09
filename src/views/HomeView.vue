@@ -191,7 +191,7 @@
       </section>
 
       <!-- start smalll  description about the team -->
-      <section class="section section-about-us">
+      <section class="section section-about-us secondary">
         <div class="main-title">
           <h2><i class="fa fa-chevron-left"></i> نبذة عن الفريق</h2>
         </div>
@@ -402,6 +402,87 @@
           </div>
         </div>
       </section>
+
+      <!-- start section reviews -->
+      <section class="section section-reviews secondary">
+        <div class="main-title">
+          <h2><i class="fa fa-chevron-left"></i> ماذا قالو عنا ؟</h2>
+        </div>
+
+        <!-- carousel -->
+        <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner review-items">
+            <div class="carousel-item review-item active">
+              <img
+                src="https://placehold.jp/1100x500.png"
+                alt="Los Angeles"
+                width="1100"
+                height="500"
+              />
+              <div class="carousel-caption review-caption">
+                <div class="review-image">
+                  <img
+                    src="https://placehold.jp/80x80.png"
+                    class="border img-circle"
+                    alt="review image"
+                  />
+                </div>
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+              </div>
+            </div>
+            <div class="carousel-item review-item">
+              <img
+                src="https://placehold.jp/1100x500.png"
+                alt="Chicago"
+                width="1100"
+                height="500"
+              />
+              <div class="carousel-caption review-caption">
+                <div class="review-image">
+                  <img
+                    src="https://placehold.jp/80x80.png"
+                    class="border img-circle"
+                    alt="review image"
+                  />
+                </div>
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+              </div>
+            </div>
+            <div class="carousel-item review-item">
+              <img
+                src="https://placehold.jp/1100x500.png"
+                alt="New York"
+                width="1100"
+                height="500"
+              />
+              <div class="carousel-caption review-caption">
+                <div class="review-image">
+                  <img
+                    src="https://placehold.jp/80x80.png"
+                    class="border img-circle"
+                    alt="review image"
+                  />
+                </div>
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <i class="fa fa-chevron-left fa-3x"></i>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <i class="fa fa-chevron-right fa-3x"></i>
+          </a>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -409,6 +490,11 @@
 <style lang="scss" scoped>
 .section {
   margin: 50px 0;
+  &.secondary {
+    margin: 0 0 50px;
+    background: #eee;
+    padding: 50px 25px;
+  }
   .main-title {
     color: var(--primary);
     text-align: center;
@@ -463,9 +549,6 @@
 
 // section about
 .section-about-us {
-  margin: 0 0 50px;
-  background: #eee;
-  padding: 50px 25px;
   .main-title {
     margin-bottom: 15px;
   }
@@ -525,11 +608,22 @@
     }
   }
 }
+
+// start section reviews
+.section-reviews {
+  background: #eee;
+}
 </style>
 
 <script>
 export default {
   name: "HomeView",
   components: {},
+  created() {
+    $(() => {
+      $(".carousel-reviews").carousel(2500);
+    });
+  },
+  methods: {},
 };
 </script>
