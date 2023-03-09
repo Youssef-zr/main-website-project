@@ -193,24 +193,24 @@
       <!-- start smalll  description about the team -->
       <section class="section section-about-us">
         <div class="main-title">
-          <h2 class="blue-text">نبذة عن الفريق</h2>
+          <h2><i class="fa fa-chevron-left"></i> نبذة عن الفريق</h2>
         </div>
 
         <div class="row">
           <!-- about content wrapper -->
-          <div class="col-md-8">
+          <div class="col-md-7">
             <div class="about-content-wrapper">
               <h4 class="title">نبذة عن الفريق</h4>
               <p class="text-content">
                 نحن فريق من شخصين، نمتلك خبرة وتجربة بالمجال الرقمي. نقوم على
                 إنجاح ومواكبة المشاريع الناشئة والكبرى لتتمكن من الحصول على
-                تجربة مستخدم متميزة وتحترم معايير التقنيات العصرية
+                تجربة مستخدم متميزة وتحترم معايير التقنيات العصرية.
               </p>
             </div>
           </div>
 
           <!-- about image -->
-          <div class="col-md-4">
+          <div class="col-md-5">
             <img src="https://placehold.jp/300x300.png" alt="" class="w-100" />
           </div>
         </div>
@@ -222,6 +222,30 @@
 <style lang="scss" scoped>
 .section {
   margin: 50px 0;
+  .main-title {
+    color: var(--primary);
+    text-align: center;
+    h2 {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 60px;
+      text-align: center;
+      color: inherit;
+      font-weight: bold;
+      i.fa {
+        font-size: 37px;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        right: 40px;
+        bottom: -16px;
+        height: 2.6px;
+        width: 60%;
+        background: var(--primary);
+      }
+    }
+  }
 }
 /* services style*/
 .services-description {
@@ -246,6 +270,25 @@
         font-size: 16px;
         line-height: 1.6;
       }
+    }
+  }
+}
+
+// section about
+.section-about-us {
+  margin: 0 0 50px;
+  background: #eee;
+  padding: 50px 25px;
+  .about-content-wrapper {
+    .title {
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+    .text-content {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #222;
+      font-weight: 600;
     }
   }
 }
