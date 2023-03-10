@@ -19,11 +19,7 @@
           <!-- head image -->
           <div class="col-md-5">
             <div class="head-image">
-              <img
-                src="https://placehold.jp/400x600.png"
-                alt="head image"
-                class="w-100"
-              />
+              <img src="https://placehold.jp/400x600.png" alt="head image" class="w-100" />
             </div>
           </div>
         </div>
@@ -31,6 +27,12 @@
 
       <!-- start section mini services description -->
       <section class="section services-description">
+        <div class="main-title">
+          <h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/2977/2977921.png" class="main-title-icon filter-png" alt="">
+            ماذا نقدم
+          </h2>
+        </div>
         <div class="cards-items-container">
           <div class="row">
             <!-- card item -->
@@ -38,10 +40,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/cloud-network.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/cloud-network.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -55,10 +54,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/encryption.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/encryption.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -72,10 +68,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/cloud-network.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/cloud-network.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -89,10 +82,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/encryption.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/encryption.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -106,10 +96,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/cloud-network.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/cloud-network.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -123,10 +110,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/encryption.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/encryption.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -140,10 +124,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/cloud-network.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/cloud-network.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -157,10 +138,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/encryption.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/encryption.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -174,10 +152,7 @@
               <div class="card card-item">
                 <div class="card-body">
                   <div class="card-icon">
-                    <img
-                      src="../assets/images/cloud-network.gif"
-                      alt="card icon"
-                    />
+                    <img src="../assets/images/cloud-network.gif" alt="card icon" />
                   </div>
                   <router-link to="/services" class="card-text">
                     الإستضافة واسم نطاق مميزين مع شهادة SSL لثقة و تجربة جيدة
@@ -193,7 +168,10 @@
       <!-- start smalll  description about the team -->
       <section class="section section-about-us secondary">
         <div class="main-title">
-          <h2><i class="fa fa-chevron-left"></i> نبذة عن الفريق</h2>
+          <h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/3815/3815458.png" class="main-title-icon filter-png" alt="">
+            نبذة عن الفريق
+          </h2>
         </div>
 
         <div class="row">
@@ -220,7 +198,10 @@
       <!-- start portfolio projects -->
       <section class="section section-portfolio">
         <div class="main-title">
-          <h2><i class="fa fa-chevron-left"></i> من بين أعمالنا</h2>
+          <h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/3419/3419254.png" class="main-title-icon filter-png" alt="">
+             من بين أعمالنا
+            </h2>
         </div>
 
         <!-- btns shuffle projects -->
@@ -259,11 +240,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="project-info">
                 <div class="image">
-                  <img
-                    src="https://placehold.jp/300x300.png"
-                    class="w-100"
-                    alt=""
-                  />
+                  <img src="https://placehold.jp/300x300.png" class="w-100" alt="" />
                 </div>
                 <div class="description">
                   <a href="#">
@@ -277,11 +254,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="project-info">
                 <div class="image">
-                  <img
-                    src="https://placehold.jp/300x300.png"
-                    class="w-100"
-                    alt=""
-                  />
+                  <img src="https://placehold.jp/300x300.png" class="w-100" alt="" />
                 </div>
                 <div class="description">
                   <a href="#">
@@ -295,11 +268,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="project-info">
                 <div class="image">
-                  <img
-                    src="https://placehold.jp/300x300.png"
-                    class="w-100"
-                    alt=""
-                  />
+                  <img src="https://placehold.jp/300x300.png" class="w-100" alt="" />
                 </div>
                 <div class="description">
                   <a href="#">
@@ -313,11 +282,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="project-info">
                 <div class="image">
-                  <img
-                    src="https://placehold.jp/300x300.png"
-                    class="w-100"
-                    alt=""
-                  />
+                  <img src="https://placehold.jp/300x300.png" class="w-100" alt="" />
                 </div>
                 <div class="description">
                   <a href="#">
@@ -331,11 +296,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="project-info">
                 <div class="image">
-                  <img
-                    src="https://placehold.jp/300x300.png"
-                    class="w-100"
-                    alt=""
-                  />
+                  <img src="https://placehold.jp/300x300.png" class="w-100" alt="" />
                 </div>
                 <div class="description">
                   <a href="#">
@@ -349,11 +310,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="project-info">
                 <div class="image">
-                  <img
-                    src="https://placehold.jp/300x300.png"
-                    class="w-100"
-                    alt=""
-                  />
+                  <img src="https://placehold.jp/300x300.png" class="w-100" alt="" />
                 </div>
                 <div class="description">
                   <a href="#">
@@ -367,11 +324,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="project-info">
                 <div class="image">
-                  <img
-                    src="https://placehold.jp/300x300.png"
-                    class="w-100"
-                    alt=""
-                  />
+                  <img src="https://placehold.jp/300x300.png" class="w-100" alt="" />
                 </div>
                 <div class="description">
                   <a href="#">
@@ -385,11 +338,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div class="project-info">
                 <div class="image">
-                  <img
-                    src="https://placehold.jp/300x300.png"
-                    class="w-100"
-                    alt=""
-                  />
+                  <img src="https://placehold.jp/300x300.png" class="w-100" alt="" />
                 </div>
                 <div class="description">
                   <a href="#">
@@ -406,7 +355,10 @@
       <!-- start section reviews -->
       <section class="section section-reviews secondary">
         <div class="main-title">
-          <h2><i class="fa fa-chevron-left"></i> ماذا قالو عنا ؟</h2>
+          <h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/2950/2950682.png" class="main-title-icon filter-png" alt="">
+             ماذا قالو عنا ؟
+            </h2>
         </div>
 
         <!-- carousel -->
@@ -418,57 +370,30 @@
           </ul>
           <div class="carousel-inner review-items">
             <div class="carousel-item review-item active">
-              <img
-                src="https://placehold.jp/1100x500.png"
-                alt="Los Angeles"
-                width="1100"
-                height="500"
-              />
+              <img src="https://placehold.jp/1100x500.png" alt="Los Angeles" width="1100" height="500" />
               <div class="carousel-caption review-caption">
                 <div class="review-image">
-                  <img
-                    src="https://placehold.jp/80x80.png"
-                    class="border img-circle"
-                    alt="review image"
-                  />
+                  <img src="https://placehold.jp/80x80.png" class="border img-circle" alt="review image" />
                 </div>
                 <h3>Los Angeles</h3>
                 <p>We had such a great time in LA!</p>
               </div>
             </div>
             <div class="carousel-item review-item">
-              <img
-                src="https://placehold.jp/1100x500.png"
-                alt="Chicago"
-                width="1100"
-                height="500"
-              />
+              <img src="https://placehold.jp/1100x500.png" alt="Chicago" width="1100" height="500" />
               <div class="carousel-caption review-caption">
                 <div class="review-image">
-                  <img
-                    src="https://placehold.jp/80x80.png"
-                    class="border img-circle"
-                    alt="review image"
-                  />
+                  <img src="https://placehold.jp/80x80.png" class="border img-circle" alt="review image" />
                 </div>
                 <h3>Chicago</h3>
                 <p>Thank you, Chicago!</p>
               </div>
             </div>
             <div class="carousel-item review-item">
-              <img
-                src="https://placehold.jp/1100x500.png"
-                alt="New York"
-                width="1100"
-                height="500"
-              />
+              <img src="https://placehold.jp/1100x500.png" alt="New York" width="1100" height="500" />
               <div class="carousel-caption review-caption">
                 <div class="review-image">
-                  <img
-                    src="https://placehold.jp/80x80.png"
-                    class="border img-circle"
-                    alt="review image"
-                  />
+                  <img src="https://placehold.jp/80x80.png" class="border img-circle" alt="review image" />
                 </div>
                 <h3>New York</h3>
                 <p>We love the Big Apple!</p>
@@ -490,14 +415,17 @@
 <style lang="scss" scoped>
 .section {
   margin: 50px 0;
+
   &.secondary {
     margin: 0 0 50px;
     background: #eee;
     padding: 50px 25px;
   }
+
   .main-title {
     color: var(--primary);
     text-align: center;
+
     h2 {
       position: relative;
       display: inline-block;
@@ -505,14 +433,24 @@
       text-align: center;
       color: inherit;
       font-weight: bold;
+
       i.fa {
         font-size: 37px;
       }
+
+      .main-title-icon {
+        width: 50px;
+      }
+
+      .filter-png {
+        filter: invert(43%) sepia(68%) saturate(4258%) hue-rotate(177deg) brightness(89%) contrast(97%);
+      }
+
       &::after {
         content: "";
         position: absolute;
-        right: 40px;
-        bottom: -17px;
+        right: 63px;
+        bottom: -13px;
         height: 3px;
         width: 55%;
         background: var(--primary);
@@ -520,6 +458,7 @@
     }
   }
 }
+
 /* services style*/
 .services-description {
   .cards-items-container {
@@ -528,6 +467,7 @@
       text-align: center;
       padding: 15px 0;
       margin-bottom: 25px;
+
       .card-icon {
         img {
           width: 90px;
@@ -536,6 +476,7 @@
           //   brightness(98%) contrast(91%);
         }
       }
+
       .card-text {
         display: block;
         margin-top: 15px;
@@ -552,11 +493,13 @@
   .main-title {
     margin-bottom: 15px;
   }
+
   .about-content-wrapper {
     .title {
       color: var(--primary);
       margin-bottom: 20px;
     }
+
     .text-content {
       font-size: 18px;
       line-height: 1.7;
@@ -571,10 +514,13 @@
 .section-portfolio {
   .shuffle-links {
     display: flex;
+
     .shuffle-item {
       margin-left: 18px;
+
       .btn {
         background: var(--primary);
+
         i.fa {
           margin-left: 5px;
         }
@@ -593,6 +539,7 @@
         bottom: 0;
       }
     }
+
     .description {
       position: absolute;
       bottom: -50px;
@@ -601,9 +548,11 @@
       background: var(--primary);
       transition: all 0.3s linear;
       cursor: pointer;
+
       a {
         font-size: 14px;
         color: #fff;
+
         &:hover {
           text-decoration: none;
         }

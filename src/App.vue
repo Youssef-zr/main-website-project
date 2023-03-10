@@ -14,7 +14,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500;600&display=swap");
 
 :root {
-  --primary: #0c8ce9;
+  --primary: #00a8ff;
+  --success: #00cec9;
 }
 body {
   background: #fff;
