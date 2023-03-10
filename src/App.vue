@@ -32,6 +32,12 @@ body {
   .img-circle {
     border-radius: 50%;
   }
+  a {
+    color: #222;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 </style>
 

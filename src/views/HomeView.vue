@@ -39,7 +39,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/cloud-network.gif"
                       alt="card icon"
                     />
                   </div>
@@ -56,7 +56,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/encryption.gif"
                       alt="card icon"
                     />
                   </div>
@@ -73,7 +73,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/cloud-network.gif"
                       alt="card icon"
                     />
                   </div>
@@ -90,7 +90,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/encryption.gif"
                       alt="card icon"
                     />
                   </div>
@@ -107,7 +107,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/cloud-network.gif"
                       alt="card icon"
                     />
                   </div>
@@ -124,7 +124,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/encryption.gif"
                       alt="card icon"
                     />
                   </div>
@@ -141,7 +141,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/cloud-network.gif"
                       alt="card icon"
                     />
                   </div>
@@ -158,7 +158,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/encryption.gif"
                       alt="card icon"
                     />
                   </div>
@@ -175,7 +175,7 @@
                 <div class="card-body">
                   <div class="card-icon">
                     <img
-                      src="https://cdn-icons-png.flaticon.com/512/860/860276.png"
+                      src="../assets/images/cloud-network.gif"
                       alt="card icon"
                     />
                   </div>
@@ -512,9 +512,9 @@
         content: "";
         position: absolute;
         right: 40px;
-        bottom: -16px;
-        height: 2.6px;
-        width: 60%;
+        bottom: -17px;
+        height: 3px;
+        width: 55%;
         background: var(--primary);
       }
     }
@@ -532,8 +532,8 @@
         img {
           width: 90px;
           margin: auto;
-          filter: invert(49%) sepia(64%) saturate(5043%) hue-rotate(184deg)
-            brightness(98%) contrast(91%);
+          // filter: invert(49%) sepia(64%) saturate(5043%) hue-rotate(184deg)
+          //   brightness(98%) contrast(91%);
         }
       }
       .card-text {
@@ -599,7 +599,7 @@
       height: 0;
       padding: 10px 10px 10px 0;
       background: var(--primary);
-      transition: all .3s linear;
+      transition: all 0.3s linear;
       cursor: pointer;
       a {
         font-size: 14px;
@@ -625,18 +625,6 @@ export default {
   created() {
     $(() => {
       $(".carousel-reviews").carousel(2500);
-
-      // $("body").on("mouseenter", ".project-info", function () {
-      //   $(this).find(".description").animate({
-      //     height: "100px",
-      //   });
-
-      //   $("body").on("mouseleave", ".project-info", function () {
-      //     $(this).find(".description").animate({
-      //       height: "0",
-      //     });
-      //   });
-      // });
     });
   },
   methods: {},
