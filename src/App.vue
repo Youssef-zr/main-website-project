@@ -14,27 +14,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500;600&display=swap");
 
 :root {
-  --primary: #00a8ff;
+  --primary: #029eec;
   --success: #00cec9;
 }
+
 body {
   background: #fff;
   direction: rtl;
   text-align: right;
+
   #app {
     font-family: "Cairo", sans-serif;
   }
+
   .img-responsive {
     max-width: 100%;
   }
+
   .blue-text {
     color: var(--primary);
   }
+
   .img-circle {
     border-radius: 50%;
   }
+
   a {
     color: #222;
+
     &:hover {
       text-decoration: none;
     }

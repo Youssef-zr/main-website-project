@@ -6,11 +6,11 @@
       <header class="section section-head">
         <div class="row align-content-stretch">
           <!-- content wrapper-->
-          <div class="col-md-7 bg-primary">
+          <div class="col-md-7" id="wrapper">
             <div class="content-wrapper">
               <h1 class="head-title">فريق محترف بمجال البرمجة والتصميم</h1>
               <p class="title-info">تصميم المواقع الالكترونية</p>
-              <button class="btn btn-primary bg-lg">
+              <button class="btn btn-primary btn-lg">
                 ابدأ الان <i class="fa fa-send"></i>
               </button>
             </div>
@@ -19,7 +19,7 @@
           <!-- head image -->
           <div class="col-md-5">
             <div class="head-image">
-              <img src="https://placehold.jp/400x600.png" alt="head image" class="w-100" />
+              <img src="https://placehold.jp/400x400.png" alt="head image" class="w-100" />
             </div>
           </div>
         </div>
@@ -200,8 +200,8 @@
         <div class="main-title">
           <h2>
             <img src="https://cdn-icons-png.flaticon.com/512/3419/3419254.png" class="main-title-icon filter-png" alt="">
-             من بين أعمالنا
-            </h2>
+            من بين أعمالنا
+          </h2>
         </div>
 
         <!-- btns shuffle projects -->
@@ -357,16 +357,16 @@
         <div class="main-title">
           <h2>
             <img src="https://cdn-icons-png.flaticon.com/512/2950/2950682.png" class="main-title-icon filter-png" alt="">
-             ماذا قالو عنا ؟
-            </h2>
+            ماذا قالو عنا ؟
+          </h2>
         </div>
 
         <!-- carousel -->
         <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
           <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#carousel-reviews" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-reviews" data-slide-to="1"></li>
+            <li data-target="#carousel-reviews" data-slide-to="2"></li>
           </ul>
           <div class="carousel-inner review-items">
             <div class="carousel-item review-item active">
@@ -400,10 +400,10 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <a class="carousel-control-prev" href="#carousel-reviews" data-slide="prev">
             <i class="fa fa-chevron-left fa-3x"></i>
           </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
+          <a class="carousel-control-next" href="#carousel-reviews" data-slide="next">
             <i class="fa fa-chevron-right fa-3x"></i>
           </a>
         </div>
@@ -420,6 +420,10 @@
     margin: 0 0 50px;
     background: #eee;
     padding: 50px 25px;
+  }
+
+  .btn-primary {
+    background: var(--primary);
   }
 
   .main-title {
@@ -454,6 +458,31 @@
         height: 3px;
         width: 55%;
         background: var(--primary);
+      }
+    }
+  }
+}
+
+/* head style */
+.section-head {
+  margin-bottom: 70px;
+
+  #wrapper {
+    display: flex;
+    align-items: center;
+
+    .content-wrapper {
+      .head-title {
+        color: var(--primary);
+        font-size: 50px;
+        line-height: 1.4;
+        font-weight: bold;
+      }
+
+      .title-info {
+        margin-top: 18px;
+        font-size: 19px;
+        color: #333
       }
     }
   }
@@ -570,11 +599,13 @@
 <script>
 export default {
   name: "HomeView",
-  components: {},
+
   created() {
     $(() => {
       $(".carousel-reviews").carousel(2500);
     });
+  },
+  components: {
   },
   methods: {},
 };

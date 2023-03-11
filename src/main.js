@@ -5,10 +5,8 @@ import router from "./router";
 import store from "./store";
 
 // import bootstrap and jquery and popper
-
+import "popper.js/dist/popper.min.js"
 import "bootstrap/dist/js/bootstrap.min.js";
-import {PopoverPlugin} from"popper.js"
-
 
 global.jQuery = require("jquery");
 var $ = global.jQuery;
